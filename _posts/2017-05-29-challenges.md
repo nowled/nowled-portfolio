@@ -1,22 +1,20 @@
 ---
 layout: post
-title: Tigers, Challenges, Bears, Change, Lions,<br/> Growth....Oh My!
+title:  The Challenge Of Being An effective Communicator!
 ---
+I love what I do, but one of the biggest challenges that all developers have is "communication". Some people say you are either born with the ability to be an effective communicator or you are not. I think anyone can do it, but it takes practice. I have seen countless of engineers struggle to get their point across to non-technical managers, because they insisted on talking in programming lexical language. And why in the hell would they do that?  My motto is keep it simple!
 
-Jeykll supports the use of [Markdown](http://daringfireball.net/projects/markdown/syntax) with inline HTML tags which makes it easier to quickly write posts with Jekyll, without having to worry too much about text formatting. A sample of the formatting follows.
 
-Tables have also been extended from Markdown:
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+Take the code below for instance. If a non-technical manager asked a developer what is the difference between a for loop and a while loop, the first knee jerk reaction of a developer is to innocently go into something like: 
 
-Here's an example of an image, which is included using Markdown:
+"While loops executes until the condition turns to false, that is first the condition is checked and if it is true then body is executed. And the for loop...."
 
-![Geometric pattern with fading gradient]({{ site.baseurl }}/img/blocflix.png)
 
-Highlighting for code in Jekyll is done using Pygments or Rouge. This theme makes use of Pygments by default.
+The only thing people hear when you talk like this is: 
+
+"Blah blah... I am  so so soo smarter than you..blah, blah..you can never be as smart as me and your presense is annoying go away...blah blah.
+
 
 {% highlight js %}
 // count to ten
@@ -25,15 +23,6 @@ for (var i = 1; i <= 10; i++) {
 }
 {% endhighlight %}
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-{% endhighlight %}
 
 {% highlight js %}
 // count to twenty
@@ -44,8 +33,7 @@ while (j < 20) {
 }
 {% endhighlight %}
 
-Type Theme uses KaTeX to display maths. Equations such as $$S_n = a \times \frac{1-r^n}{1-r}$$ can be displayed inline.
+---
 
-Alternatively, they can be shown on a new line:
-
-$$ f(x) = \int \frac{2x^2+4x+6}{x-2} $$
+The challenge to being a good communicator is to be self-aware and able to put yourself
+in someone else's shoes. When a non-technical person asks you the differences between "For and While loops", just say 'the "for loop" is easier to read' and then keep it moving! No one is looking for a 5 minute javascript tutorial between coffee breaks; Unless, they are truly sincere and would like to learn, just give people easy to digest answers. No need to over explain yourself.  Think about it from their point of view. 
