@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "" # the subpath of your site, e.g. /blog/ (optional)
-url: "http://www.your-domain.com" # the base hostname & protocol for your site
+baseurl: "https://github.com/nowled/nowled-portfolio" # the subpath of your site, e.g. /blog/ (optional)
+url: "https://www.nowled.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -24,7 +24,7 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: # github profile name, e.g. "madebymunsters"
+  github: nowled
   google_plus:
   instagram:
   linkedin:  # Full URL
